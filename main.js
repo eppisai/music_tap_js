@@ -1,3 +1,4 @@
+//This is all the logic that is required for all the things happening in the screen
 window.addEventListener("load", () => {
     const sounds = document.querySelectorAll(".sound");
     const pads = document.querySelectorAll(".pads div");
@@ -23,8 +24,8 @@ window.addEventListener("load", () => {
     };
 
 
-    //create a function that makes bubbles
-    const createBubbles = (index) => {
+    //create a function that makes boobs
+    const createBoobs = (index) => {
         const bubble = document.createElement("div");
         console.log(bubble);
         visual.appendChild(bubble);
